@@ -4,7 +4,6 @@
     /* Rectangle 2 */
 
 box-sizing: border-box;
-
 width: 160px;
 height: 47px;
 left: 406px;
@@ -12,7 +11,7 @@ top: 85px;
 border: 2px solid #56493D;
 border-radius: 40px;
 
-font-family: 'Sansation';
+font-family: 'Saira';
 font-style: normal;
 font-weight: 400;
 font-size: 30px;
@@ -22,7 +21,19 @@ color: #56493D;
 
 }
 
+.main_header {
+    /* Wishart */
 
+font-family: 'Days One', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 100px;
+line-height: 100px;
+/* identical to box height */
+
+color: #56493D;
+
+}
 
 
 body {
@@ -57,7 +68,7 @@ nav ul {
 }
 
 footer {
-    background-color: #000;
+    background-color: #56493D;
     color: #fff;
     padding: 10px;
 }
