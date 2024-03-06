@@ -8,8 +8,9 @@ body {
     padding: 0;
     border: 0;
     font-size: 100%;
-    font: inherit;
+    font-family: "Kanit", sans-serif;;
     vertical-align: baseline;
+    color:#56493D
 }
 section {
     padding: 60px 40px;
@@ -17,6 +18,11 @@ section {
 
 section:nth-child(even) {
     background-color: #f2f2f2;
+}
+
+.header {
+    background-color: #D7C0C6
+
 }
 
 .container {
@@ -37,22 +43,23 @@ nav ul {
 .head-link {
     /* Rectangle 2 */
 
-box-sizing: border-box;
-width: 160px;
-height: 47px;
-left: 406px;
-top: 85px;
-border: 2px solid #56493D;
-border-radius: 40px;
+    box-sizing: border-box;
+    width: 160px;
+    height: 47px;
+    left: 406px;
+    top: 85px;
+    border: 2px solid #56493D;
+    border-radius: 40px;
 
-font-family: "Kanit", sans-serif;
-font-style: normal;
-font-weight: 300;
-font-size: 30px;
-line-height: 34px;
-/* identical to box height */
-text-decoration: none;
-text-align: center;
+    font-family: "Kanit", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 34px;
+    /* identical to box height */
+    
+    text-decoration: none;
+    text-align: center;
 
 }
 
@@ -61,27 +68,66 @@ text-align: center;
 .main_header {
     /* Wishart */
 
-font-family: "Days One", sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 100px;
-line-height: 100px;
-/* identical to box height */
+    font-family: "Days One", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 100px;
+    /* identical to box height */
 
-color: #56493D;
-
+    color: #56493D;
 
 }
 
-.image {
-   
-border: 2px solid #56493D; /* 2px thick solid black outline */
-      
+.hello_im {
+/* HELLO */
+
+-webkit-text-stroke: 3px black;
+
+}
+
+.gabby_wishart {
+    font-family: "Days One", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 100px;
+    /* identical to box height */
+
+    color: #56493D;
+
+}
+
+
+
+.image { 
+    border: 2px solid #56493D; /* 2px thick solid black outline */ 
 }
 
 .about_me_image {
-    
-border: 2px solid #56493D; /* 2px thick solid black outline */
+    border: 2px solid #56493D; /* 2px thick solid black outline */
+}
+
+.gallery-column-container {
+    display: flex;
+    justify-content: center;
+    column-count: 2;
+    column-gap: 36px;
+}
+
+.skills1 {
+    /* Rectangle 1 */
+
+    box-sizing: border-box;
+
+    width: 200px;
+    height: 60.4px;
+    left: 583px;
+    top: 2235px;
+
+    background: #D7D5C8;
+    border: 2px solid #56493D;
+    border-radius: 40px;
 
 }
 
