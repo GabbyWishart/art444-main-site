@@ -1,5 +1,39 @@
 /* CSS GOES HERE */
 
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+section {
+    padding: 60px 40px;
+}
+
+section:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.container {
+    width: 100%;
+    max-width: 960px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    gap: 10px;
+}
+
 .head-link {
     /* Rectangle 2 */
 
@@ -35,37 +69,18 @@ color: #56493D;
 
 }
 
-
-body {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
-}
-section {
-    padding: 60px 40px;
+.image {
+   
+border: 2px solid #56493D; /* 2px thick solid black outline */
+      
 }
 
-section:nth-child(even) {
-    background-color: #f2f2f2;
+.about_me_image {
+    
+border: 2px solid #56493D; /* 2px thick solid black outline */
+
 }
 
-.container {
-    width: 100%;
-    max-width: 960px;
-    text-align: center;
-    margin: 0 auto;
-}
-
-nav ul {
-    list-style: none;
-    display: flex;
-    flex-flow: row;
-    justify-content: center;
-    gap: 10px;
-}
 
 footer {
     background-color: #56493D;
