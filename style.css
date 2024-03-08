@@ -6,6 +6,7 @@ body {
     padding: 0;
     border: 0;
     font-size: 100%;
+    font-weight: 300;
     font-family: "Kanit", sans-serif;;
     vertical-align: baseline;
     color:#56493D
@@ -22,6 +23,7 @@ section {
     
 }
 
+
 nav ul {
     list-style: none;
     display: flex;
@@ -33,18 +35,29 @@ nav ul {
     
 }
 
-
-
-#main_nav {
-    background-color: #D7C0C6
+.h2 {
+    font-size: 30px;
+    font-weight: 300;
+    font-family: "Kanit", sans-serif;;
+    vertical-align: baseline;
+    color:#56493D
     
+}
+
+h3 {
+    font-size: 30px;
+    font-weight: 300;
+    font-family: "Kanit", sans-serif;;
+    vertical-align: baseline;
+    color:#56493D
+
 }
 
 
 
-.head-link {
-    /* Rectangle 2 */
 
+/* Main Navigation */
+.head-link {
     box-sizing: border-box;
     width: 160px;
     height: 47px;
@@ -60,26 +73,30 @@ nav ul {
     line-height: 34px;
     /* identical to box height */
     text-align: center;
-
+   
 }
 
+.head-link:hover {
+    background-color: #A2A075;
+  }
 
 #header {
     background-color: #D7C0C6
 }
-.main_header {
-    /* Wishart */
 
+
+/* Main Header */
+#main_nav {
+    background-color: #D7C0C6
+    
+}
+.main_header {
     font-family: "Days One", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 90px;
     line-height: 100px;
-    /* identical to box height */
-
     color: #56493D;
-    
-
 }
 
 .hello_im {
@@ -89,8 +106,6 @@ nav ul {
 }
 
 .im {
-    /* I’M */
-
 width: 163px;
 height: 127px;
 left: 1061px;
@@ -112,29 +127,35 @@ transform: rotate(90deg);
     font-weight: 400;
     font-size: 90px;
     line-height: 100px;
-    /* identical to box height */
-
     color: #56493D;
 
 }
 
 
-
+/* About Section */
 #about {
     background-color: #D7D5C8;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: "Kanit", sans-serif;;
+  
+    color:#56493D
+    
 }
 .about_me_image {
     border: 2px solid #56493D; /* 2px thick solid black outline */
 }
 
-.about-column-container {
+.about_column_container {
     display: flex;
     justify-content: center;
     column-count: 2;
     column-gap: 36px;
+    
 }
 
 
+/* Skills Section */
 #skills {
     background-color: #A2A075;
      
@@ -158,79 +179,109 @@ transform: rotate(90deg);
     
 }
 
-.skills-column-container {
+.skills_column_container {
     display: flex;
     justify-content: center;
-    column-count: 2;
-    column-gap: 36px;
+    column-count: 4;
+    column-gap: 40px;
 }
 
-.skills1{
+.skills1 {
     display: inline-flex;
+    
 } 
 
 .software {
     font-size: 30px;
+    font-weight: 300;
     font-family: "Kanit", sans-serif;;
     vertical-align: baseline;
     color:#56493D
+    
 }
 
 .personal {
     font-size: 30px;
+    font-weight: 300;
     font-family: "Kanit", sans-serif;;
     vertical-align: baseline;
     color:#56493D
 }
 
 
+/* Gallery Section */
 #gallery {
     background-color: #D7C0C6
 }
 .image { 
     border: 2px solid #56493D; /* 2px thick solid black outline */ 
+    margin-bottom: 20px;
 }
-.gallery-column-container {
+.gallery_column_container {
     display: flex;
     justify-content: center;
     column-count: 2;
     column-gap: 36px;
-   
 }
 
 
+/* FAQs Section */
 #faqs {
     background-color: #D7D5C8;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: "Kanit", sans-serif;;
+    color:#56493D
+}
+
+hr {
+    border: none; 
+    height: 1px; 
+    background-color: #56493D; 
+    margin: 20px 0; 
 }
 
 .toggle_button {
     text-align: right;
 }
 
+
+/* Contact Section */
 #contact {
     background-color: #D7D5C8;
    
 }
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #A2A075;
+    border: 1px solid #56493D;
+    border-radius: 5px;
+
+    box-sizing: border-box;
+
+    background: #A2A075;
+    border: 1px solid #56493D;
+
+}
 
 
-
+/* Footer Section */
 .footer {
     color: #D7D5C8;
     display: flex;
     flex-direction: row;
-    gap: 100px
-    
-    
-    
+    gap: 100px  
+     
   
 }
 
 footer {
     background-color: #56493D;
     padding: 10px;
-  
+    
 }
-
 
 a {
     color: inherit;
@@ -238,19 +289,3 @@ a {
 
 }
 
-.h2 {
-    font-size: 35px;
-    font-family: "Kanit", sans-serif;;
-    vertical-align: baseline;
-    color:#56493D
- 
-    
-}
-
-h3 {
-    font-size: 30px;
-    font-family: "Kanit", sans-serif;;
-    vertical-align: baseline;
-    color:#56493D
-    
-}
