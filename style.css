@@ -1,5 +1,12 @@
 /* CSS GOES HERE */
 
+.vertical_line {
+    border: 2px solid #56493D;
+    height: 100%;
+    width: 2px;
+    
+}
+
 
 body {
     margin: 0;
@@ -70,7 +77,7 @@ h3 {
     height: 47px;
     left: 406px;
     top: 85px;
-    border: 2px solid #56493D;
+    border: 3px solid #56493D;
     border-radius: 40px;
 
     font-family: "Kanit", sans-serif;
@@ -160,7 +167,7 @@ transform: rotate(90deg);
 }
 
 .about_me_image {
-    border: 2px solid #56493D; /* 2px thick solid black outline */
+    border: 3px solid #56493D; /* 2px thick solid black outline */
     
 }
 
@@ -241,7 +248,7 @@ transform: rotate(90deg);
 }
 
 .image { 
-    border: 2px solid #56493D; /* 2px thick solid black outline */ 
+    border: 3px solid #56493D; /* 2px thick solid black outline */ 
     margin-bottom: 20px;
     width: 100%;
     max-width: 960px;
@@ -326,3 +333,10 @@ a {
 
 
 
+div.ex1 {
+    pointer-events: none;
+  }
+  
+div.ex2 {
+    pointer-events: auto;
+  }
