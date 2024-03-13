@@ -102,7 +102,8 @@ h3 {
 .hello_im {
     -webkit-text-stroke: 2.5px #56493D;
     color: transparent; 
-    display: flex
+    display: flex;
+ 
     
 }
 
@@ -146,6 +147,7 @@ transform: rotate(90deg);
 }
 .about_me_image {
     border: 2px solid #56493D; /* 2px thick solid black outline */
+    
 }
 
 .about_column_container {
@@ -153,6 +155,11 @@ transform: rotate(90deg);
     justify-content: center;
     column-count: 2;
     column-gap: 36px;
+    width: 100%;
+    max-width: 960px;
+  
+    margin: 0 auto;
+
     
 }
 
@@ -183,6 +190,13 @@ transform: rotate(90deg);
 }
 
 .skills_column_container {
+    display: flex;
+    justify-content: center;
+    column-count: 4;
+    column-gap: 40px;
+}
+
+.skills2_column_container {
     display: flex;
     justify-content: center;
     column-count: 4;
@@ -220,6 +234,10 @@ transform: rotate(90deg);
 .image { 
     border: 2px solid #56493D; /* 2px thick solid black outline */ 
     margin-bottom: 20px;
+    width: 100%;
+    max-width: 960px;
+    
+ 
 }
 
 .gallery_column_container {
@@ -227,7 +245,10 @@ transform: rotate(90deg);
     justify-content: center;
     column-count: 2;
     column-gap: 36px;
+    
+    
 }
+
 
 
 /* FAQs Section */
