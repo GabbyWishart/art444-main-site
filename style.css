@@ -10,7 +10,16 @@ body {
     font-family: "Kanit", sans-serif;;
     vertical-align: baseline;
     color:#56493D
+    
 }
+
+.lines {
+    background-image: url ('images/Lines.svg');
+    background-size: 100%; 
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
 section {
     padding: 60px 40px;
 }
@@ -80,30 +89,32 @@ h3 {
     background-color: #A2A075;
   }
 
-#header {
+
+#main_nav {
     background-color: #D7C0C6
 }
 
 
 /* Main Header */
-#main_nav {
+#header {
     background-color: #D7C0C6
     
 }
+
 .main_header {
     font-family: "Days One", sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 90px;
+    font-size: 100px;
     line-height: 100px;
     color: #56493D;
+    height: 750px
 }
 
 .hello_im {
     -webkit-text-stroke: 2.5px #56493D;
     color: transparent; 
     display: flex;
- 
     
 }
 
@@ -120,7 +131,6 @@ font-size: 70px;
 line-height: 127px;
 
 transform: rotate(90deg);
-
 
 }
 
