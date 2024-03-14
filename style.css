@@ -30,6 +30,7 @@
     left: 50%;
     transform: translateX(-50%);
     margin: 0 auto;
+    overflow: hidden;
 
 }
   
@@ -104,6 +105,8 @@ nav ul {
     vertical-align: baseline;
     color:#56493D
     
+    
+    
 }
 
 h3 {
@@ -112,6 +115,7 @@ h3 {
     font-family: "Kanit", sans-serif;;
     vertical-align: baseline;
     color:#56493D
+    m
 
 }
 
@@ -149,6 +153,7 @@ h3 {
 /* Main Header */
 #header {
     background-color: #D7C0C6
+  
     
 }
 
@@ -160,7 +165,8 @@ h3 {
     line-height: 100px;
     color: #56493D;
     height: 660px;
-    
+    overflow: hidden;
+   
 }
 
 .hello_im {
@@ -170,11 +176,12 @@ h3 {
     position: relative;
     left: 10%;
     bottom: 10%;
+   
     
 }
 
 .hello {
-   display: column;
+    display: column;
     position: relative;
     left: 30px;
     /* bottom: 35%; */
@@ -200,6 +207,7 @@ position: relative;
 left: 7%;
 top: 100px;
 
+
 }
 
 .gabby_wishart {
@@ -207,6 +215,7 @@ top: 100px;
     position: relative;
     left: 2%;
     bottom: 49%;
+    
     
 }
 
@@ -236,6 +245,8 @@ top: 100px;
     position: relative;
     left: 32%;
     bottom: 70px;
+  
+    
 }
 
 
@@ -260,7 +271,7 @@ top: 100px;
 
 
 .about_section {
-    height: 810px
+    height: 750px
 }
 
 .about_me_image {
@@ -284,7 +295,6 @@ top: 100px;
 /* Skills Section */
 #skills {
     background-color: #A2A075;
-   
      
 }
 
@@ -300,6 +310,7 @@ top: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     
 }
 
@@ -331,11 +342,7 @@ top: 100px;
     
 }
 
-.skills1 {
-    display: flex;
-    flex-direction: column;
-    
-} 
+
 
 .software {
     font-size: 30px;
@@ -367,7 +374,7 @@ top: 100px;
 
 .image { 
     border: 3px solid #56493D; /* 2px thick solid black outline */ 
-    margin-bottom: 20px;
+    margin-bottom: 70px;
     width: 100%;
     max-width: 960px;
     
@@ -390,15 +397,16 @@ top: 100px;
     background-color: #D7D5C8;
     font-size: 20px;
     font-weight: 300;
-    font-family: "Kanit", sans-serif;;
+    font-family: "Kanit", sans-serif;
     color:#56493D
 }
 
 hr {
     border: none; 
-    height: 1px; 
+    height: 3px; 
     background-color: #56493D; 
-    margin: 20px 0; 
+    margin: 0; 
+    color:#56493D
 }
 
 .toggle_button {
@@ -413,33 +421,87 @@ hr {
 }
 
 form {
-    max-width: 400px;
+    
     margin: 0 auto;
     padding: 20px;
     background: #A2A075;
-    border: 1px solid #56493D;
-    border-radius: 5px;
-
     box-sizing: border-box;
-
     background: #A2A075;
-    border: 1px solid #56493D;
+    border: 3px solid #56493D;
+    width: 650px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    font-family: "Kanit", sans-serif;
+    
 
 }
 
+
+input[type="name"],
+input[type="email"],
+textarea {
+  width: 500px;
+  padding: 10px;
+  margin: 20px;
+  border: 3px solid #56493D;
+ 
+  background-color: #D7D5C8
+  
+ 
+
+}
+
+textarea {
+
+    width: 500px;
+    height: 200px;
+    padding: 10px;
+    margin: 20px;
+    border: 3px solid #56493D;
+   
+    background-color: #D7D5C8
+    
+    
+  
+  }
+
+
+
+.button-primary {
+    background-color: #D7D5C8;
+    color: #56493D;
+    border: 3 px solid #56493D;
+    padding: 10px 40px;
+    margin: 20px;
+    cursor: pointer;
+
+    
+  }
+  
+  .button-primary:hover {
+    background-color: #D7C0C6;
+
+  }
 
 /* Footer Section */
 .footer {
     color: #D7D5C8;
     display: flex;
     flex-direction: row;
-    gap: 100px  
+    gap: 100px;
+ 
+   
+   
+    justify-content: center;
    
 }
 
 footer {
     background-color: #56493D;
     padding: 10px;
+    
     
 }
 
@@ -451,10 +513,3 @@ a {
 
 
 
-div.ex1 {
-    pointer-events: none;
-  }
-  
-div.ex2 {
-    pointer-events: auto;
-  }
