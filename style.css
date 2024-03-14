@@ -5,29 +5,26 @@
         border-left: 4px solid #56493D;
         height: 920%;
         position: absolute;
-        left: 10%;
+        left: 8%;
         margin-left: -3px;
         top: 0;
-        
-        
+             
 }
 
 .vertical_line_right {
     border-left: 4px solid #56493D;
     height: 920%;
     position: absolute;
-    right: 10%;
+    right: 8%;
     margin-right: -3px;
     top: 0;
 }
-
-
   
+
 .horizontal_line_1 {
     border: 2px solid #56493D;
     width: 100%;
     position: absolute;
-    
     top: 20px;
     margin: 20px 0;
 }
@@ -36,8 +33,15 @@
     border: 2px solid #56493D;
     width: 100%;
     position: absolute;
-   
     top: 140px;
+    margin: 0
+}
+
+.horizontal_line_3 {
+    border: 2px solid #56493D;
+    width: 100%;
+    position: absolute;
+    top: 880px;
     margin: 0
 }
 
@@ -55,12 +59,12 @@ body {
     
 }
 
-.lines {
+/* .lines {
     background-image: url ('images/Lines.svg');
     background-size: 90%; 
     background-repeat: no-repeat;
     position: absolute;
-}
+} */
 
 section {
     padding: 60px 40px;
@@ -87,7 +91,7 @@ nav ul {
 }
 
 .h2 {
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 300;
     font-family: "Kanit", sans-serif;;
     vertical-align: baseline;
@@ -148,42 +152,83 @@ h3 {
     font-size: 100px;
     line-height: 100px;
     color: #56493D;
-    height: 750px
+    height: 660px;
     
 }
 
 .hello_im {
-    -webkit-text-stroke: 2.5px #56493D;
+    -webkit-text-stroke: 2.6px #56493D;
     color: transparent; 
     display: flex;
+    position: relative;
+    left: 10%;
+    bottom: 10%;
     
 }
 
+.hello {
+   display: column;
+    position: relative;
+    left: 30px;
+    /* bottom: 35%; */
+   
+}
+
 .im {
-width: 163px;
+/* width: 163px;
 height: 127px;
-left: 1061px;
+left: 1061px; */
 top: calc(50% - 127px/2 - 3594px);
+/* bottom: -150px; */
 
 font-family: 'Days One';
 font-style: normal;
 font-weight: 400;
-font-size: 70px;
+font-size: 60px;
 line-height: 127px;
 
 transform: rotate(90deg);
+display: flex;
+position: relative;
+left: 7%;
+top: 100px;
 
 }
 
 .gabby_wishart {
+    display: column;
+    position: relative;
+    left: 2%;
+    bottom: 49%;
+    
+}
+
+.gabby {
     font-family: "Days One", sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 90px;
+    font-size: 110px;
     line-height: 100px;
     color: #56493D;
+    display: column;
+    position: relative;
+    left: 20%;
+    bottom: 35%;
    
 
+}
+
+.wishart {
+    font-family: "Days One", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 110px;
+    /* line-height: 40px; */
+    color: #56493D;
+    display: column;
+    position: relative;
+    left: 32%;
+    bottom: 70px;
 }
 
 
@@ -197,6 +242,17 @@ transform: rotate(90deg);
     color:#56493D
     
 }
+
+.horizontal_line_4 {
+    border: 2px solid #56493D;
+    width: 100%;
+    position: absolute;
+
+    top: 1160px;
+    margin: 30px 0;
+     
+}
+
 
 .about_section {
     height: 810px
