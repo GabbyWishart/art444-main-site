@@ -8,6 +8,7 @@ nav ul {
     display: block;
 }
 
+
 .main_header {
     font-size: 70px;
     line-height: 180px;
@@ -65,11 +66,40 @@ nav ul {
 .mobile_menu {
     top: 70px;
     left: 70px;
-}
-
 
 }
 
+
+
+.head-link {
+    border: 3px solid #56493D;
+    color: #56493D;
+}
+
+.head-link:hover {
+    background-color: #D7C0C6;
+  }
+
+  .about_column_container {
+    flex-direction: column;
+}
+
+  .about_me_image {
+    width: 400px;
+}
+
+.about_section {
+    height: 970px;
+    
+}
+
+section {
+    padding: 90px 80px;
+}
+
+
+
+}
 
 
 
