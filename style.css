@@ -1,9 +1,10 @@
 /* CSS GOES HERE */
 
+
 .vertical_line_left {
 
         border-left: 4px solid #56493D;
-        height: 920%;
+        height: 1000%;
         position: absolute;
         left: 8%;
         margin-left: -3px;
@@ -13,7 +14,7 @@
 
 .vertical_line_right {
     border-left: 4px solid #56493D;
-    height: 920%;
+    height: 1000%;
     position: absolute;
     right: 8%;
     margin-right: -3px;
@@ -141,7 +142,7 @@ h3 {
     font-size: 25px;
     line-height: 34px;
     text-align: center;
-   
+   color: #56493D;
 }
 
 .head-link:hover {
@@ -279,6 +280,7 @@ top: 100px;
     border: 3px solid #56493D; 
     
     
+    
 }
 
 .about_column_container {
@@ -305,6 +307,7 @@ top: 100px;
     margin:  0;
      
 }
+
 
 .skills1 {
     width: 200px;
@@ -361,6 +364,8 @@ top: 100px;
     
     
 }
+
+
 
 
 
@@ -537,11 +542,7 @@ a {
 }
 
 
-.mobile_menu {
-    display: block;
-    z-index: 999;
-    
-}
+
 
 .mobile-menu-popout {
     position: fixed;
@@ -550,7 +551,7 @@ a {
     background-color: #A2A075;
     z-index: 998;
     padding: 80px 40px;
-    padding-top: 120px;
+    padding-top: 170px;
     height:100%;
     width: 200px;
     transition: all 300ms;
@@ -580,7 +581,10 @@ a {
     left: 40px;
     background-color: transparent;
     display: none;
+    /* display: block; */
+    z-index: 999;
     
-   
+    
 
 }
+
