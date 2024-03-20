@@ -1,10 +1,19 @@
 /* TABLET VIEW */
 @media only screen and (max-width:768px) {
+nav ul {
+    display: none;
+}
+
+.mobile_menu {
+    display: block;
+}
 
 }
 
 /* MOBILE VIEW */
 @media only screen and (max-width: 390px) {
+    
   
 }
+
 
