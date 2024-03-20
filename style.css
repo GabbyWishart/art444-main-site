@@ -521,7 +521,7 @@ a {
 .mobile-menu-popout {
     position: fixed;
     top: 0;
-    left: 0;
+    left: -280px;
     background-color: #A2A075;
     z-index: 998;
     padding: 80px 40px;
