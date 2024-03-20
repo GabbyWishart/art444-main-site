@@ -8,11 +8,85 @@ nav ul {
     display: block;
 }
 
+.main_header {
+    font-size: 70px;
+    line-height: 180px;
+   
 }
+
+.horizontal_line_3 {
+    
+    top: 97%;
+    margin: 0
+}
+
+.hello_im {
+    left: 4%;
+    bottom: 0;
+    top: 12%;
+}
+
+.im  {
+    font-size: 50px;
+    top: 60px;
+    left: 0;
+    right: 6%;
+}
+
+.gabby {
+    font-size: 80px;
+    left: 0;
+    bottom: 0;
+  
+}
+
+.wishart {
+    font-size: 80px;
+    left: 0;
+    bottom: 130px;
+    
+   
+}
+
+.gabby_wishart {
+    bottom: 26%;
+    left: 10%;
+   
+}
+
+/* .skills_column_container {
+    flex-direction: column;
+}
+
+.skills2_column_container {
+    flex-direction: column;
+} */
+
+.mobile_menu {
+    top: 70px;
+    left: 70px;
+}
+
+
+}
+
+
+
+
+
+
+
 
 /* MOBILE VIEW */
 @media only screen and (max-width: 390px) {
-    
+
+    .about_column_container {
+        flex-direction: column;
+    }
+
+    .gallery_column_container {
+        flex-direction: column;
+    }
   
 }
 
