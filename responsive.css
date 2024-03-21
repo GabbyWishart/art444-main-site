@@ -7,8 +7,47 @@ nav ul {
 .mobile_menu {
     display: block;
 }
+.mobile_menu {
+    top: 70px;
+    left: 70px;
+
+}
+
+section {
+    padding: 90px 80px;
+}
+
+.vertical_line_left {
+    height: 1030%;
+    position: absolute;
+    left: 8%;
+    margin-left: -3px;
+    top: 0;
+         
+}
+
+.vertical_line_right {
+height: 1030%;
+position: absolute;
+right: 8%;
+margin-right: -3px;
+top: 0;
+
+}
+
+/* Main Navigation */
+
+.head-link {
+    border: 3px solid #56493D;
+    color: #56493D;
+}
+
+.head-link:hover {
+    background-color: #D7C0C6;
+  }
 
 
+/* Main Header */
 .main_header {
     font-size: 70px;
     line-height: 180px;
@@ -55,32 +94,14 @@ nav ul {
    
 }
 
-/* .skills_column_container {
-    flex-direction: column;
+/* About Section */
+  
+.horizontal_line_4 {
+    top: 130%;
+    margin: 30px 0;
+     
 }
-
-.skills2_column_container {
-    flex-direction: column;
-} */
-
-.mobile_menu {
-    top: 70px;
-    left: 70px;
-
-}
-
-
-
-.head-link {
-    border: 3px solid #56493D;
-    color: #56493D;
-}
-
-.head-link:hover {
-    background-color: #D7C0C6;
-  }
-
-  .about_column_container {
+.about_column_container {
     flex-direction: column;
 }
 
@@ -93,8 +114,48 @@ nav ul {
     
 }
 
-section {
-    padding: 90px 80px;
+
+/* Skills Section */
+.skills_column_container {
+    flex-direction: column;
+}
+
+.skills2_column_container {
+    flex-direction: column;
+}
+
+.skills1 {
+    flex-direction: column;
+}
+
+.horizontal_line_5 {
+    top: 285%;
+    margin:  0;
+     
+}
+
+
+/* Gallery Section */
+.horizontal_line_6 {
+    top: 490%;
+    margin:  0;
+     
+}
+
+
+/* FAQs Section */
+.horizontal_line_7 {
+    top: 715%;
+    margin:  0;
+     
+}
+
+/* Contact Section */
+
+.horizontal_line_8 {
+    top: 920%;
+    margin:  0;
+     
 }
 
 form {
@@ -137,9 +198,6 @@ textarea {
 
 
 
-
-
-
 /* MOBILE VIEW */
 @media only screen and (max-width: 390px) {
 
@@ -147,21 +205,14 @@ textarea {
         padding: 90px 50px;
     }
 
-    .about_column_container {
-        flex-direction: column;
-    }
-
-    .gallery_column_container {
-        flex-direction: column;
-    }
-
     .mobile_menu {
         display: block;
 
     }
 
+
     .vertical_line_left {
-        height: 900%;
+        height: 1175%;
         position: absolute;
         left: 8%;
         margin-left: -9px;
@@ -170,13 +221,14 @@ textarea {
     }
 
     .vertical_line_right {
-        border-left: 4px solid #56493D;
-        height: 900%;
+       
+        height: 1175%;
         position: absolute;
         right: 8%;
         margin-right: -9px;
         top: 0;
     }
+
 
     .h2 {
         font-size: 30px;
@@ -189,7 +241,16 @@ textarea {
         
     
     }
+
+
+    .gallery_column_container {
+        flex-direction: column;
+    }
+
     
+
+  
+/* Main Header */
     #header {
         height: 550px;
       
@@ -204,7 +265,7 @@ textarea {
     
     .horizontal_line_3 {
         
-        top: 97%;
+        top: 85%;
         margin: 0
     }
     
@@ -243,7 +304,14 @@ textarea {
        margin-right: 20%;
        
     }
-    
+
+
+/* About Section */
+    .horizontal_line_4 {
+        top: 113%;
+        margin: 30px 0;
+        
+    }
     #about {
         font-size: 18px;
         
@@ -257,6 +325,16 @@ textarea {
         width: 100%;
     }
 
+    .about_column_container {
+        flex-direction: column;
+    }
+
+/* Skills Section */
+.horizontal_line_5 {
+    top: 282%;
+    margin:  0;
+     
+}
     .skills1 {
         width: 150px;
         height: 50px;
@@ -282,17 +360,36 @@ textarea {
      
     }
 
-
+/* Gallery Section */
+.horizontal_line_6 {
+    top: 460%;
+    margin:  0;
+     
+}
     .image { 
         margin-bottom: 50px;
        
     }
 
+/* FAQs Section */
+    
+.horizontal_line_7 {
+    top: 830%;
+    margin:  0;
+     
+}
     #faqs {
         font-size: 18px;
        
     }
     
+/* Contact Section */
+
+    .horizontal_line_8 {
+        top: 1060%;
+        margin:  0;
+        
+    }
 
     form {
     
@@ -329,6 +426,8 @@ textarea {
       
       }
 
+
+/* Footer Section */
       .footer {
     
         gap: 20px;
