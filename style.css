@@ -4,7 +4,7 @@
 .vertical_line_left {
 
         border-left: 4px solid #56493D;
-        height: 1000%;
+        height: 900%;
         position: absolute;
         left: 8%;
         margin-left: -3px;
@@ -14,7 +14,7 @@
 
 .vertical_line_right {
     border-left: 4px solid #56493D;
-    height: 1000%;
+    height: 900%;
     position: absolute;
     right: 8%;
     margin-right: -3px;
@@ -42,18 +42,18 @@
 
 .horizontal_line_1 {
    
-    top: 3%;
+    top: 2%;
     margin: 20px 0;
 }
 
 .horizontal_line_2 {
    
-    top: 20%;
+    top: 19%;
     margin: 0
 }
 
 .horizontal_line_3 {  
-    top: 125%;
+    top: 110%;
     margin: 0
 }
 
@@ -107,7 +107,7 @@ nav ul {
 .h2 {
     font-size: 40px;
     font-weight: 300;
-    font-family: "Kanit", sans-serif;;
+    font-family: "Kanit", sans-serif;
     vertical-align: baseline;
     color:#56493D
     
@@ -266,7 +266,7 @@ top: 100px;
 }
 
 .horizontal_line_4 {
-    top: 165%;
+    top: 145%;
     margin: 30px 0;
      
 }
@@ -303,7 +303,7 @@ top: 100px;
 }
 
 .horizontal_line_5 {
-    top: 300%;
+    top: 250%;
     margin:  0;
      
 }
@@ -312,8 +312,8 @@ top: 100px;
 .skills1 {
     width: 200px;
     height: 60.4px;
-    left: 583px;
-    top: 2235px;
+    /* left: 583px; */
+    /* top: 2235px; */
 
     background: #D7D5C8;
     border: 3px solid #56493D;
@@ -367,8 +367,6 @@ top: 100px;
 
 
 
-
-
 .personal {
     font-size: 30px;
     font-weight: 300;
@@ -386,18 +384,17 @@ top: 100px;
 }
 
 .horizontal_line_6 {
-    top: 410%;
+    top: 365%;
     margin:  0;
      
 }
 
 .image { 
-    border: 3px solid #56493D; /* 2px thick solid black outline */ 
+    border: 3px solid #56493D; 
     margin-bottom: 70px;
     width: 100%;
     max-width: 960px;
-    
- 
+   
 }
 
 .gallery_column_container {
@@ -405,7 +402,6 @@ top: 100px;
     justify-content: center;
     column-count: 2;
     column-gap: 36px;
-    
     
 }
 
@@ -419,8 +415,9 @@ top: 100px;
     font-family: "Kanit", sans-serif;
     color:#56493D
 }
+
 .horizontal_line_7 {
-    top: 750%;
+    top: 670%;
     margin:  0;
      
 }
@@ -441,11 +438,11 @@ hr {
 /* Contact Section */
 #contact {
     background-color: #D7D5C8;
-   
+    height: 800px;
 }
 
 .horizontal_line_8 {
-    top: 920%;
+    top: 820%;
     margin:  0;
      
 }
@@ -492,8 +489,6 @@ textarea {
     border: 3px solid #56493D;
    
     background-color: #D7D5C8
-    
-    
   
   }
 
@@ -521,9 +516,6 @@ textarea {
     display: flex;
     flex-direction: row;
     gap: 100px;
- 
-   
-   
     justify-content: center;
    
 }
@@ -543,7 +535,7 @@ a {
 
 
 
-
+/* Side Menu */
 .mobile-menu-popout {
     position: fixed;
     top: 0;
