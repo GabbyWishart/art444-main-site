@@ -4,7 +4,7 @@
 .vertical_line_left {
 
         border-left: 4px solid #56493D;
-        height: 900%;
+        height: 940%;
         position: absolute;
         left: 8%;
         margin-left: -3px;
@@ -14,7 +14,7 @@
 
 .vertical_line_right {
     border-left: 4px solid #56493D;
-    height: 900%;
+    height: 940%;
     position: absolute;
     right: 8%;
     margin-right: -3px;
