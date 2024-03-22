@@ -43,7 +43,7 @@
 <!-- Main Navigation --> 
 
 <header id="main_nav">
-  <div class="mobile_menu">
+  <div onclick="document.getElementById('mymenu').classList.toggle('open')" class="mobile_menu">
     <img src="images/icons8-hamburger-menu.svg">
   </div>
 
@@ -107,7 +107,7 @@
     </div>
   </section>
 
-  <div class="mobile-menu-popout">
+  <div id="mymenu" class="mobile-menu-popout">
     <ul>
       <div class="head-link">
         <a href="#header">Home</a>
