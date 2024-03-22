@@ -105,7 +105,7 @@ top: 0;
     flex-direction: column;
 }
 
-  .about_me_image {
+.about_me_image {
     width: 70%;
 }
 
@@ -117,23 +117,39 @@ top: 0;
 
 /* Skills Section */
 .skills_column_container {
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
+    
+    
+     
+   
 }
 
 .skills2_column_container {
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+
+    
 }
 
 .skills1 {
-    flex-direction: column;
+    width: 145px;
+    height: 50px;  
+    font-size: 18px;
+   
 }
+
+
+
 
 .horizontal_line_5 {
     top: 285%;
     margin:  0;
      
 }
+
+
 
 
 /* Gallery Section */
@@ -218,6 +234,9 @@ textarea {
         left: 8%;
         margin-left: -9px;
         top: 0;
+    
+        
+       
              
     }
 
@@ -228,6 +247,8 @@ textarea {
         right: 8%;
         margin-right: -9px;
         top: 0;
+        
+       
     }
 
 
@@ -254,47 +275,56 @@ textarea {
 /* Main Header */
     #header {
         height: 550px;
-      
         
     }
+
+    .horizontal_line_3 {
+        top: 85%;
+        margin: 0
+    }
+
     .main_header {
         font-size: 40px;
         line-height: 150px;
         padding: 0%;
        
-    }
-    
-    .horizontal_line_3 {
-        
-        top: 85%;
-        margin: 0
+
+       
     }
     
     .hello_im {
         left: 0;
-        
         bottom: 0;
         top: 12%;
+       
+    }
+    
+    .hello {
+        left: -5px;
+    
     }
     
     .im  {
-        font-size: 20px;
-        top: 60px;
-        left: 0;
-        right: 6%;
+        font-size: 30px;
+        top: 31px;
+        left: -13%;
+        right: 0%;
+        
+
+       
     }
     
     .gabby {
-        font-size: 50px;
+        font-size: 47px;
         left: 0;
         bottom: 0;
       
     }
     
     .wishart {
-        font-size: 50px;
+        font-size: 47px;
         left: 0;
-        bottom: 130px;
+        bottom: 115px;
         
        
     }
@@ -302,7 +332,8 @@ textarea {
     .gabby_wishart {
         bottom: 10%;
         left: 0;
-       margin-right: 20%;
+       
+
        
     }
 
@@ -330,26 +361,14 @@ textarea {
         flex-direction: column;
     }
 
+
 /* Skills Section */
 .horizontal_line_5 {
     top: 282%;
     margin:  0;
      
 }
-    .skills1 {
-        width: 150px;
-        height: 50px;
-        /* left: 583px; */
-        /* top: 2235px; */
-        border-radius: 40px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        margin-bottom: 10px;
-        font-size: 18px;
-      
-    }
+    
 
     .software {
         font-size: 25px;
@@ -360,6 +379,7 @@ textarea {
         font-size: 25px;
      
     }
+
 
 /* Gallery Section */
 .horizontal_line_6 {
@@ -394,7 +414,7 @@ textarea {
 
     form {
     
-        margin: 0 auto;
+        margin-left: -12px;
         padding: 20px;
         
         width: 300px;

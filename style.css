@@ -357,6 +357,8 @@ h3 {
 
 
 
+
+
 /* Gallery Section */
 #gallery {
     background-color: #D7C0C6;
@@ -521,6 +523,7 @@ a {
     height:100%;
     width: 200px;
     transition: all 300ms;
+    
      
 }
 
@@ -548,6 +551,7 @@ a {
     z-index: 999;
     background-repeat: no-repeat;
     background-size: 40px;
+    
     
 
 }
