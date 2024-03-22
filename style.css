@@ -536,8 +536,9 @@ a {
 }
 
 .mobile_menu {
-    width: 36px;
-    height: 36px;
+    background-image: url(images/hamburgermenu.svg);
+    width: 43px;
+    height: 43px;
     position: fixed;
     top: 40px;
     left: 40px;
@@ -545,10 +546,20 @@ a {
     display: none;
     /* display: block; */
     z-index: 999;
+    background-repeat: no-repeat;
+    background-size: 40px;
+    
 
 }
 
 .open {
     left: 0px;
+}
+
+.close {
+    background-image: url(images/x_button.svg);
+    background-size: 30px;
+    
+    
 }
 

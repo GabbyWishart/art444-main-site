@@ -43,8 +43,8 @@
 <!-- Main Navigation --> 
 
 <header id="main_nav">
-  <div onclick="document.getElementById('mymenu').classList.toggle('open')" class="mobile_menu">
-    <img src="images/icons8-hamburger-menu.svg">
+  <div onclick="myMenu()" class="mobile_menu" id="menuButton">
+    <!-- <img src="images/icons8-hamburger-menu.svg"> -->
   </div>
 
   <div class="main_nav">
@@ -314,7 +314,17 @@
   </div>
 </footer>
 
+<script>
+  function myMenu () {
+    document.getElementById('mymenu').classList.toggle('open');
+    document.getElementById('menuButton').classList.toggle('close');
+
+  }
+
+
+</script>
   
 <script src="script.js"></script>
 </body>
 </html>
+
