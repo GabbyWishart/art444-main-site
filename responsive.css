@@ -6,11 +6,8 @@ nav ul {
 
 .mobile_menu {
     display: block;
-}
-.mobile_menu {
-    top: 70px;
-    left: 70px;
-
+    top: 80px;
+    left: 80px;
 }
 
 section {
@@ -18,22 +15,24 @@ section {
 }
 
 .vertical_line_left {
-    height: 1030%;
+    height: 950%;
     position: absolute;
     left: 8%;
     margin-left: -3px;
     top: 0;
-         
+       
 }
 
 .vertical_line_right {
-height: 1030%;
-position: absolute;
-right: 8%;
-margin-right: -3px;
-top: 0;
+    height: 950%;
+    position: absolute;
+    right: 8%;
+    margin-right: -3px;
+    top: 0;
 
 }
+
+
 
 /* Main Navigation */
 
@@ -51,11 +50,11 @@ top: 0;
 .main_header {
     font-size: 70px;
     line-height: 180px;
+    
    
 }
 
 .horizontal_line_3 {
-    
     top: 97%;
     margin: 0
 }
@@ -119,8 +118,7 @@ top: 0;
 .skills_column_container {
     flex-direction: row;
     flex-wrap: wrap;
-    
-    
+    justify-content: center;
      
    
 }
@@ -128,8 +126,7 @@ top: 0;
 .skills2_column_container {
     flex-direction: row;
     flex-wrap: wrap;
-    
-
+    justify-content: center;
     
 }
 
@@ -140,8 +137,9 @@ top: 0;
    
 }
 
-
-
+.skills4 {
+    margin-right: 6%;
+}
 
 .horizontal_line_5 {
     top: 285%;
@@ -154,7 +152,7 @@ top: 0;
 
 /* Gallery Section */
 .horizontal_line_6 {
-    top: 490%;
+    top: 411%;
     margin:  0;
      
 }
@@ -162,7 +160,7 @@ top: 0;
 
 /* FAQs Section */
 .horizontal_line_7 {
-    top: 715%;
+    top: 633%;
     margin:  0;
      
 }
@@ -170,7 +168,7 @@ top: 0;
 /* Contact Section */
 
 .horizontal_line_8 {
-    top: 920%;
+    top: 835%;
     margin:  0;
      
 }
@@ -224,9 +222,10 @@ textarea {
 
     .mobile_menu {
         display: block;
+        top: 80px;
+        left: 50px;
 
     }
-
 
     .vertical_line_left {
         height: 1175%;
@@ -234,9 +233,6 @@ textarea {
         left: 8%;
         margin-left: -9px;
         top: 0;
-    
-        
-       
              
     }
 
@@ -248,7 +244,6 @@ textarea {
         margin-right: -9px;
         top: 0;
         
-       
     }
 
 
@@ -274,12 +269,12 @@ textarea {
   
 /* Main Header */
     #header {
-        height: 550px;
+        height: 515px;
         
     }
 
     .horizontal_line_3 {
-        top: 85%;
+        top: 78%;
         margin: 0
     }
 
@@ -306,8 +301,8 @@ textarea {
     
     .im  {
         font-size: 30px;
-        top: 31px;
-        left: -13%;
+        top: 40px;
+        left: -8%;
         right: 0%;
         
 
@@ -324,14 +319,15 @@ textarea {
     .wishart {
         font-size: 47px;
         left: 0;
-        bottom: 115px;
+        bottom: 118px;
         
        
     }
     
     .gabby_wishart {
-        bottom: 10%;
+        bottom: 17%;
         left: 0;
+        margin-left: -12px;
        
 
        
@@ -340,7 +336,7 @@ textarea {
 
 /* About Section */
     .horizontal_line_4 {
-        top: 113%;
+        top: 108%;
         margin: 30px 0;
         
     }
@@ -363,11 +359,28 @@ textarea {
 
 
 /* Skills Section */
-.horizontal_line_5 {
-    top: 282%;
-    margin:  0;
-     
-}
+    
+    .skills_column_container {
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: left;
+        
+    
+    }
+
+    .skills2_column_container {
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: left;
+    }
+
+
+
+    .horizontal_line_5 {
+        top: 278%;
+        margin:  0;
+        
+    }
     
 
     .software {
@@ -383,7 +396,7 @@ textarea {
 
 /* Gallery Section */
 .horizontal_line_6 {
-    top: 460%;
+    top: 456%;
     margin:  0;
      
 }
@@ -395,7 +408,7 @@ textarea {
 /* FAQs Section */
     
 .horizontal_line_7 {
-    top: 830%;
+    top: 825%;
     margin:  0;
      
 }
@@ -407,7 +420,7 @@ textarea {
 /* Contact Section */
 
     .horizontal_line_8 {
-        top: 1060%;
+        top: 1050%;
         margin:  0;
         
     }
@@ -450,9 +463,8 @@ textarea {
 
 /* Footer Section */
       .footer {
-    
         gap: 20px;
-        
+     
        
     }
 
