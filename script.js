@@ -12,7 +12,7 @@
   }
 
   function darkmode() {
-    document.getElementByClassName('body')[0].classList.toggle('body-dark-mode');
+    document.getElementsByClassName('body')[0].classList.toggle('body-dark-mode');
 
   }
 
