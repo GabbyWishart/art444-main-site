@@ -11,3 +11,8 @@
 
   }
 
+  function darkmode() {
+    document.getElementByClassName('body')[0].classList.toggle('body-dark-mode');
+
+  }
+
