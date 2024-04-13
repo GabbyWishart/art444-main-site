@@ -16,10 +16,9 @@ body {
     
 }
 
-.body-dark-mode {
-    background-color: #876971;
+.body_dark_mode {
+    color:#D7D5C8;
 }
-
 
 
 section {
@@ -159,6 +158,14 @@ h3 {
 
 }
 
+.main_nav_dark_mode {
+    background-color: #876971;
+}
+
+.main_header_dark_mode {
+    background-color: #876971;
+    color: #D7D5C8;
+}
 
 
 /* Main Header */
@@ -166,6 +173,7 @@ h3 {
     background-color: #D7C0C6;
     
 }
+
 
 .main_header {
     font-family: "Days One", sans-serif;
@@ -175,8 +183,8 @@ h3 {
     line-height: 100px;
     color: #56493D;
     height: 660px;
+    background-color: #D7C0C6;
     
-   
 }
 
 .hello_im {
@@ -257,6 +265,13 @@ h3 {
 
 
 /* About Section */
+.about_dark_mode {
+    background-color: #56493D;
+}
+.about_me_image_dark_mode {
+    border-color: #D7D5C8;
+}
+
 #about {
     background-color: #D7D5C8;
     font-size: 20px;
@@ -274,6 +289,7 @@ h3 {
 
 .about_section {
     height: 750px;
+    
 }
 
 .about_me_image {
@@ -295,6 +311,10 @@ h3 {
 
 
 /* Skills Section */
+.skills_dark_mode {
+    background-color: #56493D;
+}
+
 #skills {
     background-color: #A2A075;
      
