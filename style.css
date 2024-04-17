@@ -16,9 +16,11 @@ body {
     
 }
 
-.body_dark_mode {
-    color:#D7D5C8;
+.body-dark {
+    color:#D7D5C8 !important;
 }
+
+
 
 
 section {
@@ -54,6 +56,8 @@ nav ul {
     position: absolute;
 } */
 
+
+
 .vertical_line_left {
     border-left: 4px solid #56493D;
     height: 940%;
@@ -61,8 +65,12 @@ nav ul {
     left: 8%;
     margin-left: -3px;
     top: 0;
-    
              
+}
+
+.vertical_line_left_dark {
+    border-left: 4px solid #D7D5C8 !important;
+
 }
 
 .vertical_line_right {
@@ -74,6 +82,11 @@ nav ul {
     top: 0;
    
 }
+.vertical_line_right_dark {
+    border-left: 4px solid #D7D5C8 !important;
+
+}
+
 
 .horizontal_line_1,
 .horizontal_line_2,
@@ -92,14 +105,26 @@ nav ul {
     overflow: hidden;
 
 }
+
+.horizontal_line_1_dark,
+.horizontal_line_2_dark,
+.horizontal_line_3_dark,
+.horizontal_line_4_dark, 
+.horizontal_line_5-dark,
+.horizontal_line_6_dark,
+.horizontal_line_7_dark,
+.horizontal_line_8_dark{
+    border: 2px solid #D7D5C8;
+
+}
   
 .horizontal_line_1 {
-    top: 2%;
+    top: 7%;
     margin: 20px 0;
 }
 
 .horizontal_line_2 {
-    top: 19%;
+    top: 26%;
     margin: 0;
 }
 
@@ -118,6 +143,10 @@ nav ul {
     
 }
 
+.h2-dark {
+    color:#D7D5C8;
+}
+
 h3 {
     font-size: 30px;
     font-weight: 300;
@@ -125,6 +154,10 @@ h3 {
     vertical-align: baseline;
     color:#56493D;
     
+}
+
+.h3-dark {
+    color:#D7D5C8;
 }
 
 
@@ -147,6 +180,11 @@ h3 {
    color: #56493D;
 }
 
+.head-link-dark-mode {
+    border: 3px solid #D7D5C8 !important;
+    color:#D7D5C8;
+}
+
 .head-link:hover {
     background-color: #A2A075;
 
@@ -159,21 +197,22 @@ h3 {
 }
 
 .main_nav_dark_mode {
-    background-color: #876971;
-}
-
-.main_header_dark_mode {
-    background-color: #876971;
-    color: #D7D5C8;
+    background-color: #94737C;
 }
 
 
 /* Main Header */
+
+
+
+
 #header {
     background-color: #D7C0C6;
     
 }
-
+.header_dark_mode {
+    background-color: #94737C !important;
+}
 
 .main_header {
     font-family: "Days One", sans-serif;
@@ -183,8 +222,11 @@ h3 {
     line-height: 100px;
     color: #56493D;
     height: 660px;
-    background-color: #D7C0C6;
     
+}
+.main_header_dark_mode {
+   
+    color: #D7D5C8 !important;
 }
 
 .hello_im {
@@ -196,6 +238,9 @@ h3 {
     bottom: 10%;
     
 }
+.hello_im_dark_mode {
+    -webkit-text-stroke: 2.6px #D7D5C8 !important;
+}
 
 .hello {
     display: column;
@@ -206,11 +251,8 @@ h3 {
 }
 
 .im {
-    /* width: 163px;
-    height: 127px;
-    left: 1061px; */
+    
     top: calc(50% - 127px/2 - 3594px);
-    /* bottom: -150px; */
 
     font-family: 'Days One';
     font-style: normal;
@@ -240,7 +282,7 @@ h3 {
     font-weight: 400;
     font-size: 110px;
     line-height: 100px;
-    color: #56493D;
+    
     display: column;
     position: relative;
     left: 20%;
@@ -253,8 +295,6 @@ h3 {
     font-style: normal;
     font-weight: 400;
     font-size: 110px;
-    /* line-height: 40px; */
-    color: #56493D;
     display: column;
     position: relative;
     left: 32%;
@@ -265,11 +305,10 @@ h3 {
 
 
 /* About Section */
+
 .about_dark_mode {
-    background-color: #56493D;
-}
-.about_me_image_dark_mode {
-    border-color: #D7D5C8;
+    background-color: #56493D !important;
+    color:#D7D5C8 !important;
 }
 
 #about {
@@ -297,6 +336,10 @@ h3 {
     
 }
 
+.about_me_image_dark {
+    border: 3px solid #D7D5C8 ; 
+}
+
 .about_column_container {
     display: flex;
     justify-content: center;
@@ -311,13 +354,14 @@ h3 {
 
 
 /* Skills Section */
-.skills_dark_mode {
-    background-color: #56493D;
-}
+
 
 #skills {
     background-color: #A2A075;
      
+}
+.skills_dark_mode {
+    background-color: #8B8964 !important;
 }
 
 .horizontal_line_5 {
@@ -343,6 +387,11 @@ h3 {
     margin-bottom: 10px;
     font-size: 20px;
   
+}
+
+.skills1-dark {
+    background: #56493D !important;
+    border: 3px solid #D7D5C8 !important;
 }
 
 
@@ -374,8 +423,11 @@ h3 {
     font-family: "Kanit", sans-serif;
     vertical-align: baseline;
     color:#56493D
-    
-    
+     
+}
+
+.software-dark {
+    color:#D7D5C8 !important;
 }
 
 .personal {
@@ -387,13 +439,19 @@ h3 {
     
 }
 
-
+.personal-dark {
+    color:#D7D5C8 !important;
+}
 
 
 
 /* Gallery Section */
 #gallery {
     background-color: #D7C0C6;
+}
+
+.gallery-dark-mode {
+    background-color: #94737C !important;
 }
 
 .horizontal_line_6 {
@@ -408,6 +466,10 @@ h3 {
     width: 100%;
     max-width: 960px;
    
+}
+
+.image-dark {
+    border: 3px solid #D7D5C8 !important; 
 }
 
 .gallery_column_container {
@@ -429,6 +491,11 @@ h3 {
     color:#56493D;
 }
 
+.faqs-dark {
+    background-color: #56493D !important;
+    color:#D7D5C8 !important;
+}
+
 .horizontal_line_7 {
     top: 670%;
     margin:  0;
@@ -437,12 +504,17 @@ h3 {
 
 hr {
     border: none; 
-    height: 3px; 
+    height: 3.5px; 
     background-color: #56493D; 
     margin: 0; 
-    color:#56493D;
 
 }
+
+.hr-dark {
+    background-color: #D7D5C8; 
+}
+
+
 
 .toggle_button {
     text-align: right;
@@ -456,6 +528,10 @@ hr {
     height: 800px;
 }
 
+.contact-dark {
+    background-color: #56493D !important;
+}
+
 .horizontal_line_8 {
     top: 820%;
     margin:  0;
@@ -467,15 +543,19 @@ form {
     padding: 20px;
     background: #A2A075;
     box-sizing: border-box;
-    background: #A2A075;
     border: 3px solid #56493D;
     width: 650px;
     height: 550px;
     display: flex;
     flex-direction: column;
     align-items: center; 
-    font-family: "Kanit", sans-serif;
-    
+    font-family: "Kanit", sans-serif; 
+
+}
+
+.form-dark {
+    background: #8B8964;
+    border: 3px solid #D7D5C8;
 
 }
 
@@ -487,10 +567,11 @@ textarea {
   padding: 10px;
   margin: 20px;
   border: 3px solid #56493D;
- 
   background-color: #D7D5C8;
   
 }
+
+
 
 textarea {
 
@@ -558,7 +639,10 @@ a {
     width: 200px;
     transition: all 300ms;
     
-     
+}
+
+.mobile-menu-popout-dark{
+    background-color: #8B8964 !important;
 }
 
 .head-link {
@@ -585,9 +669,10 @@ a {
     z-index: 999;
     background-repeat: no-repeat;
     background-size: 40px;
-    
-    
 
+}
+.mobile_menu_dark {
+    background-image: url(images/hamburgermenucopy.svg);
 }
 
 .open {
@@ -601,3 +686,19 @@ a {
     
 }
 
+.dark_mode_button {
+    background-image: url(images/lightmodebutton.svg);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    top: 20px;
+    position: relative;
+    height: 43px;
+ 
+    
+}
+
+.dark_mode_button_dark {
+    background-image: url(images/darkmodebutton.svg);
+   
+
+}
