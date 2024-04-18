@@ -29,9 +29,10 @@ function darkmode() {
 
  
   document.getElementsByTagName('body')[0].classList.toggle('body-dark');
+  document.getElementsByClassName('dark-mode-button')[0].classList.toggle('light-mode-button');
+  
 
   document.getElementsByTagName('form')[0].classList.toggle('form-dark');
-
 
   document.getElementsByClassName('main_nav')[0].classList.toggle('main_nav_dark_mode');
 
@@ -47,23 +48,36 @@ function darkmode() {
 
   document.getElementById('gallery').classList.toggle('gallery-dark-mode');
   
+  
   document.getElementById('faqs').classList.toggle('faqs-dark');
   document.getElementById('contact').classList.toggle('contact-dark');
-  
+
+  document.getElementById('name').classList.toggle('name-dark');
+  document.getElementById('email').classList.toggle('email-dark');
+  document.getElementById('message').classList.toggle('message-dark');
+
   
   document.getElementsByClassName('software') [0].classList.toggle('software-dark');
   document.getElementsByClassName('personal')[0].classList.toggle('personal-dark');
 
-  document.getElementsByClassName('.vertical_line_left')[0].classList.toggle('.vertical_line_left_dark');
-  document.getElementsByClassName('.vertical_line_right')[0].classList.toggle('.vertical_line_right_dark');
+  document.getElementsByClassName('vertical_line_left')[0].classList.toggle('vertical_line_left_dark');
+  document.getElementsByClassName('vertical_line_right')[0].classList.toggle('vertical_line_right_dark');
 
-  document.getElementsByClassName('dark_mode_button')[0].classList.toggle('dark_mode_button_dark');
+  document.getElementsByClassName('horizontal_line_1')[0].classList.toggle('horizontal_line_1_dark');
+  document.getElementsByClassName('horizontal_line_2')[0].classList.toggle('horizontal_line_2_dark');
+  document.getElementsByClassName('horizontal_line_3')[0].classList.toggle('horizontal_line_3_dark');
+  document.getElementsByClassName('horizontal_line_4')[0].classList.toggle('horizontal_line_4_dark');
+  document.getElementsByClassName('horizontal_line_5')[0].classList.toggle('horizontal_line_5_dark');
+  document.getElementsByClassName('horizontal_line_6')[0].classList.toggle('horizontal_line_6_dark');
+  document.getElementsByClassName('horizontal_line_7')[0].classList.toggle('horizontal_line_7_dark');
+  document.getElementsByClassName('horizontal_line_8')[0].classList.toggle('horizontal_line_8_dark');
 
-
-
-  document.getElementsByClassName('horizontal_line_1') [0].classList.toggle('horizontal_line_1_dark');
+  document.getElementsByClassName('mobile_menu')[0].classList.toggle('mobile_menu_dark');
+  document.getElementsByClassName('mobile-menu-popout')[0].classList.toggle('mobile-menu-popout-dark');
+  document.getElementsByClassName('close')[0].classList.toggle('close-dark');
 
   
+
 }
 
 
