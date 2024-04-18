@@ -21,8 +21,6 @@ body {
 }
 
 
-
-
 section {
     padding: 60px 40px;
 }
@@ -110,10 +108,10 @@ nav ul {
 .horizontal_line_2_dark,
 .horizontal_line_3_dark,
 .horizontal_line_4_dark, 
-.horizontal_line_5-dark,
+.horizontal_line_5_dark,
 .horizontal_line_6_dark,
 .horizontal_line_7_dark,
-.horizontal_line_8_dark{
+.horizontal_line_8_dark {
     border: 2px solid #D7D5C8;
 
 }
@@ -202,9 +200,6 @@ h3 {
 
 
 /* Main Header */
-
-
-
 
 #header {
     background-color: #D7C0C6;
@@ -560,7 +555,7 @@ form {
 }
 
 
-input[type="name"],
+/* input[type="name"],
 input[type="email"],
 textarea {
   width: 500px;
@@ -569,8 +564,29 @@ textarea {
   border: 3px solid #56493D;
   background-color: #D7D5C8;
   
+} */
+
+#name, #email, #message {
+  width: 500px;
+  padding: 10px;
+  margin: 20px;
+  border: 3px solid #56493D;
+  background-color: #D7D5C8;
+  
 }
 
+.name-dark {
+    border: 3px solid #D7D5C8 !important;
+    background-color: #56493D !important;
+}
+.email-dark {
+    border: 3px solid #D7D5C8 !important;
+    background-color: #56493D !important;
+}
+.message-dark {
+    border: 3px solid #D7D5C8 !important;
+    background-color: #56493D !important;
+}
 
 
 textarea {
@@ -594,12 +610,12 @@ textarea {
 
     
 }
+
   
 .button-primary:hover {
     background-color: #D7C0C6;
 
 }
-
 
 
 /* Footer Section */
@@ -671,9 +687,11 @@ a {
     background-size: 40px;
 
 }
+
 .mobile_menu_dark {
     background-image: url(images/hamburgermenucopy.svg);
 }
+
 
 .open {
     left: 0px;
@@ -683,22 +701,26 @@ a {
     background-image: url(images/x_button.svg);
     background-size: 30px;
     
-    
 }
 
-.dark_mode_button {
+.close-dark {
+    background-image: url(images/x_button_copy.svg);
+}
+
+.dark-mode-button {
     background-image: url(images/lightmodebutton.svg);
     background-size: 30px;
     background-repeat: no-repeat;
     top: 20px;
     position: relative;
     height: 43px;
- 
+    
+}  
+
+.light-mode-button {
+    background-image: url(images/darkmodebutton.svg); 
     
 }
 
-.dark_mode_button_dark {
-    background-image: url(images/darkmodebutton.svg);
-   
 
-}
+
