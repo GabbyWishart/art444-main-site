@@ -25,7 +25,6 @@ function darkmode() {
   for (let i = 0; i < hrdark.length; i++) { 
   hrdark[i].classList.toggle('hr-dark'); }
 
-  
 
  
   document.getElementsByTagName('body')[0].classList.toggle('body-dark');
@@ -76,7 +75,10 @@ function darkmode() {
   document.getElementsByClassName('mobile-menu-popout')[0].classList.toggle('mobile-menu-popout-dark');
   document.getElementsByClassName('close')[0].classList.toggle('close-dark');
 
+
   
+
+
 
 }
 
