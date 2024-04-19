@@ -58,7 +58,7 @@ nav ul {
 
 .vertical_line_left {
     border-left: 4px solid #56493D;
-    height: 940%;
+    height: 943%;
     position: absolute;
     left: 8%;
     margin-left: -3px;
@@ -73,7 +73,7 @@ nav ul {
 
 .vertical_line_right {
     border-left: 4px solid #56493D;
-    height: 940%;
+    height: 943%;
     position: absolute;
     right: 8%;
     margin-right: -3px;
@@ -127,7 +127,7 @@ nav ul {
 }
 
 .horizontal_line_3 {  
-    top: 110%;
+    top: 114%;
     margin: 0;
 }
 
@@ -316,7 +316,7 @@ h3 {
 }
 
 .horizontal_line_4 {
-    top: 145%;
+    top: 151%;
     margin: 30px 0;
      
 }
@@ -360,7 +360,7 @@ h3 {
 }
 
 .horizontal_line_5 {
-    top: 250%;
+    top: 255%;
     margin:  0;
      
 }
@@ -450,7 +450,7 @@ h3 {
 }
 
 .horizontal_line_6 {
-    top: 365%;
+    top: 371%;
     margin:  0;
      
 }
@@ -492,7 +492,7 @@ h3 {
 }
 
 .horizontal_line_7 {
-    top: 670%;
+    top: 675%;
     margin:  0;
      
 }
@@ -520,7 +520,7 @@ hr {
 /* Contact Section */
 #contact {
     background-color: #D7D5C8;
-    height: 800px;
+    height: 840px;
 }
 
 .contact-dark {
@@ -528,7 +528,7 @@ hr {
 }
 
 .horizontal_line_8 {
-    top: 820%;
+    top: 826%;
     margin:  0;
      
 }
@@ -540,7 +540,7 @@ form {
     box-sizing: border-box;
     border: 3px solid #56493D;
     width: 650px;
-    height: 550px;
+    height: 568px;
     display: flex;
     flex-direction: column;
     align-items: center; 
@@ -555,23 +555,16 @@ form {
 }
 
 
-/* input[type="name"],
-input[type="email"],
-textarea {
-  width: 500px;
-  padding: 10px;
-  margin: 20px;
-  border: 3px solid #56493D;
-  background-color: #D7D5C8;
-  
-} */
-
 #name, #email, #message {
   width: 500px;
   padding: 10px;
   margin: 20px;
   border: 3px solid #56493D;
   background-color: #D7D5C8;
+  color:#56493D;
+  font-size: 100%;
+  font-weight: 300;
+  font-family: "Kanit", sans-serif;
   
 }
 
@@ -590,13 +583,13 @@ textarea {
 
 
 textarea {
-
     width: 500px;
     height: 200px;
     padding: 10px;
     margin: 20px;
     border: 3px solid #56493D;
     background-color: #D7D5C8;
+    color:#56493D;
   
 }
 
@@ -607,6 +600,10 @@ textarea {
     padding: 10px 40px;
     margin: 20px;
     cursor: pointer;
+    font-size: 100%;
+    font-weight: 300;
+    font-family: "Kanit", sans-serif;
+    margin: 9px;
 
     
 }
@@ -714,11 +711,16 @@ a {
     top: 20px;
     position: relative;
     height: 43px;
-    
+    width: 43px;
+    left: 40px;
+   
 }  
 
 .light-mode-button {
     background-image: url(images/darkmodebutton.svg); 
+    background-color: #94737C;
+    
+    
     
 }
 
