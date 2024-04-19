@@ -521,6 +521,7 @@ hr {
 #contact {
     background-color: #D7D5C8;
     height: 840px;
+    
 }
 
 .contact-dark {
@@ -545,6 +546,7 @@ form {
     flex-direction: column;
     align-items: center; 
     font-family: "Kanit", sans-serif; 
+    
 
 }
 
@@ -568,21 +570,26 @@ form {
   
 }
 
+
+
 .name-dark {
     border: 3px solid #D7D5C8 !important;
     background-color: #56493D !important;
+    color:#D7D5C8 !important;
 }
 .email-dark {
     border: 3px solid #D7D5C8 !important;
     background-color: #56493D !important;
+    color:#D7D5C8 !important;
 }
 .message-dark {
     border: 3px solid #D7D5C8 !important;
     background-color: #56493D !important;
+    color:#D7D5C8 !important; 
 }
 
 
-textarea {
+#message {
     width: 500px;
     height: 200px;
     padding: 10px;
@@ -592,6 +599,7 @@ textarea {
     color:#56493D;
   
 }
+
 
 .button-primary {
     background-color: #D7D5C8;
@@ -719,8 +727,6 @@ a {
 .light-mode-button {
     background-image: url(images/darkmodebutton.svg); 
     background-color: #94737C;
-    
-    
     
 }
 
