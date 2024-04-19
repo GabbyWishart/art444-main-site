@@ -6,7 +6,7 @@ nav ul {
 
 .mobile_menu {
     display: block;
-    top: 80px;
+    top: 120px;
     left: 80px;
 }
 
@@ -15,7 +15,7 @@ section {
 }
 
 .vertical_line_left {
-    height: 950%;
+    height: 961%;
     position: absolute;
     left: 8%;
     margin-left: -3px;
@@ -24,7 +24,7 @@ section {
 }
 
 .vertical_line_right {
-    height: 950%;
+    height: 961%;
     position: absolute;
     right: 8%;
     margin-right: -3px;
@@ -32,6 +32,10 @@ section {
 
 }
 
+.horizontal_line_2 {
+    top: 24%;
+    margin: 0;
+}
 
 
 /* Main Navigation */
@@ -96,7 +100,7 @@ section {
 /* About Section */
   
 .horizontal_line_4 {
-    top: 130%;
+    top: 136%;
     margin: 30px 0;
      
 }
@@ -142,7 +146,7 @@ section {
 }
 
 .horizontal_line_5 {
-    top: 285%;
+    top: 273%;
     margin:  0;
      
 }
@@ -152,7 +156,7 @@ section {
 
 /* Gallery Section */
 .horizontal_line_6 {
-    top: 411%;
+    top: 416%;
     margin:  0;
      
 }
@@ -160,7 +164,7 @@ section {
 
 /* FAQs Section */
 .horizontal_line_7 {
-    top: 633%;
+    top: 639%;
     margin:  0;
      
 }
@@ -187,9 +191,7 @@ form {
 
 }
 
-input[type="name"],
-input[type="email"],
-textarea {
+#name, #email, #message {
   width: 450px;
   padding: 10px;
   margin: 20px;
@@ -208,6 +210,14 @@ textarea {
   
   }
 
+  .dark-mode-button {
+    left: 80px;
+}
+
+    .light-mode-button {
+        left: 80px;
+}
+
 }
 
 
@@ -222,13 +232,13 @@ textarea {
 
     .mobile_menu {
         display: block;
-        top: 80px;
+        top: 107px;
         left: 50px;
 
     }
 
     .vertical_line_left {
-        height: 1175%;
+        height: 1179%;
         position: absolute;
         left: 8%;
         margin-left: -9px;
@@ -238,7 +248,7 @@ textarea {
 
     .vertical_line_right {
        
-        height: 1175%;
+        height: 1179%;
         position: absolute;
         right: 8%;
         margin-right: -9px;
@@ -246,6 +256,10 @@ textarea {
         
     }
 
+    .horizontal_line_2 {
+        top: 21%;
+        margin: 0;
+    }
 
     .h2 {
         font-size: 30px;
@@ -336,7 +350,7 @@ textarea {
 
 /* About Section */
     .horizontal_line_4 {
-        top: 108%;
+        top: 113%;
         margin: 30px 0;
         
     }
@@ -377,7 +391,7 @@ textarea {
 
 
     .horizontal_line_5 {
-        top: 278%;
+        top: 271%;
         margin:  0;
         
     }
@@ -395,8 +409,8 @@ textarea {
 
 
 /* Gallery Section */
-.horizontal_line_6 {
-    top: 456%;
+    .horizontal_line_6 {
+    top: 461%;
     margin:  0;
      
 }
@@ -407,11 +421,11 @@ textarea {
 
 /* FAQs Section */
     
-.horizontal_line_7 {
-    top: 825%;
-    margin:  0;
-     
-}
+    .horizontal_line_7 {
+        top: 830%;
+        margin:  0;
+        
+    }
     #faqs {
         font-size: 18px;
        
@@ -439,9 +453,7 @@ textarea {
     
     }
     
-    input[type="name"],
-    input[type="email"],
-    textarea {
+    #name, #email, #message{
       width: 230px;
       padding: 10px;
       margin: 20px;
@@ -468,6 +480,22 @@ textarea {
        
     }
 
+
+    .dark-mode-button {
+        left: 50px;
+    }
+   
+    .light-mode-button {
+        left: 50px;
+    }
+
+
+
+
+
+
 }
+
+
 
 
