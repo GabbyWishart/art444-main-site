@@ -136,8 +136,9 @@ nav ul {
     font-size: 40px;
     font-weight: 300;
     font-family: "Kanit", sans-serif;
-    vertical-align: baseline;
+    /* vertical-align: baseline; */
     color:#56493D;
+    
     
 }
 
@@ -149,8 +150,9 @@ h3 {
     font-size: 30px;
     font-weight: 300;
     font-family: "Kanit", sans-serif;;
-    vertical-align: baseline;
+    /* vertical-align: baseline; */
     color:#56493D;
+    margin-left: 30px;
     
 }
 
@@ -511,10 +513,38 @@ hr {
 
 
 
-.toggle_button {
+/* .toggle-button {
     text-align: right;
 
+} */
+
+p {
+    font-size: 20px;
+    font-weight: 300;
+    font-family: "Kanit", sans-serif;
+    /* vertical-align: baseline; */
+    color:#56493D;
+    margin-left: 30px;
 }
+
+.faq-toggle {
+ 
+width: 955px;
+height: 105px;
+/* left: 196px;
+top: 5864px; */
+background-color: #A2A075;
+border: 3px solid #56493D;
+margin-bottom: 40px;
+border-radius: 40px; 
+overflow: hidden;
+
+}
+
+.faq-open {
+    height: 250px;
+}
+
 
 
 /* Contact Section */
@@ -717,7 +747,7 @@ a {
     background-size: 30px;
     background-repeat: no-repeat;
     top: 20px;
-    position: relative;
+    position: fixed;
     height: 43px;
     width: 43px;
     left: 40px;
