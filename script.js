@@ -1,4 +1,10 @@
 
+const faqToggle = document.querySelectorAll ('.faq-toggle') 
+for (let i = 0; i < faqToggle.length; i++) { 
+  faqToggle[i].addEventListener("click", function() { this.classList.toggle('faq-open') })
+}
+
+
 function darkmode() {
 
   const headlinkdark = document.querySelectorAll('.head-link') 
@@ -95,4 +101,6 @@ function darkmode() {
 
   }
 
-  
+  // // function faqtoggle() {
+  //   document.getElementsByClassName ('faq-toggle').classList.toggle ('faq-open')
+  // // }
