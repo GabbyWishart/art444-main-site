@@ -34,12 +34,15 @@ function darkmode() {
 
  
   document.getElementsByTagName('body')[0].classList.toggle('body-dark');
+  
   document.getElementsByClassName('dark-mode-button')[0].classList.toggle('light-mode-button');
   
 
   document.getElementsByTagName('form')[0].classList.toggle('form-dark');
 
+
   document.getElementsByClassName('main_nav')[0].classList.toggle('main_nav_dark_mode');
+  
 
 
   document.getElementsByClassName('main_header')[0].classList.toggle('main_header_dark_mode');
@@ -52,7 +55,7 @@ function darkmode() {
   document.getElementById('skills').classList.toggle('skills_dark_mode');
 
   document.getElementById('gallery').classList.toggle('gallery-dark-mode');
-  
+
   
   document.getElementById('faqs').classList.toggle('faqs-dark');
   document.getElementById('contact').classList.toggle('contact-dark');
@@ -80,6 +83,10 @@ function darkmode() {
   document.getElementsByClassName('mobile_menu')[0].classList.toggle('mobile_menu_dark');
   document.getElementsByClassName('mobile-menu-popout')[0].classList.toggle('mobile-menu-popout-dark');
   document.getElementsByClassName('close')[0].classList.toggle('close-dark');
+
+  document.getElementsByTagName('p').classList.toggle('p-dark');
+
+  
 
 
   
