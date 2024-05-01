@@ -522,9 +522,12 @@ p {
     font-size: 20px;
     font-weight: 300;
     font-family: "Kanit", sans-serif;
-    /* vertical-align: baseline; */
     color:#56493D;
     margin-left: 30px;
+}
+
+.p-dark {
+    color:#D7D5C8 !important;
 }
 
 .faq-toggle {
@@ -751,12 +754,13 @@ a {
     height: 43px;
     width: 43px;
     left: 40px;
+    
    
 }  
 
 .light-mode-button {
     background-image: url(images/darkmodebutton.svg); 
-    background-color: #94737C;
+   
     
 }
 
