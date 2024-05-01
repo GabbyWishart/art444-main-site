@@ -70,6 +70,7 @@ function darkmode() {
 
   document.getElementsByClassName('vertical_line_left')[0].classList.toggle('vertical_line_left_dark');
   document.getElementsByClassName('vertical_line_right')[0].classList.toggle('vertical_line_right_dark');
+  
 
   document.getElementsByClassName('horizontal_line_1')[0].classList.toggle('horizontal_line_1_dark');
   document.getElementsByClassName('horizontal_line_2')[0].classList.toggle('horizontal_line_2_dark');
@@ -79,18 +80,17 @@ function darkmode() {
   document.getElementsByClassName('horizontal_line_6')[0].classList.toggle('horizontal_line_6_dark');
   document.getElementsByClassName('horizontal_line_7')[0].classList.toggle('horizontal_line_7_dark');
   document.getElementsByClassName('horizontal_line_8')[0].classList.toggle('horizontal_line_8_dark');
+ 
+
 
   document.getElementsByClassName('mobile_menu')[0].classList.toggle('mobile_menu_dark');
   document.getElementsByClassName('mobile-menu-popout')[0].classList.toggle('mobile-menu-popout-dark');
   document.getElementsByClassName('close')[0].classList.toggle('close-dark');
 
-  document.getElementsByTagName('p').classList.toggle('p-dark');
-
   
+  // document.getElementsByClassName('faq-toggle').classList.toggle('faq-toggle-dark');
 
-
-  
-
+  // document.getElementsByTagName('p').classList.toggle('p-dark');
 
 
 }
