@@ -10,9 +10,10 @@ for (let i = 0; i < faqToggle.length; i++) {
 
 
 function darkmode() {
-  const button = document.querySelector('.switch');
-  button.addEventListener('click', () => {document.body.classList.toggle('dark') })
-
+  // document.body.classList.toggle('dark');
+  // const button = document.querySelector('.switch');
+  // button.addEventListener('click', () => {document.body.classList.toggle('dark') })
+  
 
   const headlinkdark = document.querySelectorAll('.head-link') 
   for (let i = 0; i < headlinkdark.length; i++) { 
@@ -38,11 +39,16 @@ function darkmode() {
   for (let i = 0; i < hrdark.length; i++) { 
   hrdark[i].classList.toggle('hr-dark'); }
 
+ 
+    
+    
+   
+
 
  
   document.getElementsByTagName('body')[0].classList.toggle('body-dark');
   
-  // document.getElementsByClassName('dark-mode-button')[0].classList.toggle('light-mode-button');
+  document.getElementsByClassName('dark-mode-toggle')[0].classList.toggle('light-mode-toggle');
   
 
   document.getElementsByTagName('form')[0].classList.toggle('form-dark');
@@ -95,9 +101,10 @@ function darkmode() {
   document.getElementsByClassName('close')[0].classList.toggle('close-dark');
 
   
-  
 
   // document.getElementsByTagName('p').classList.toggle('p-dark');
+
+ // Add an event listener to detect when the page is scrolled
 
 
 }
@@ -118,3 +125,14 @@ function darkmode() {
   // // function faqtoggle() {
   //   document.getElementsByClassName ('faq-toggle').classList.toggle ('faq-open')
   // // }
+
+  window.addEventListener('scroll', function() {
+    var header = document.getElementById('main_nav');
+    var scrollPosition = window.scrollY;
+  
+    // If the scroll position is greater than 100px, add the 'slide-in' class to the header
+    if (scrollPosition > 100) {
+      im.classList.add('slide-in');} else {
+      im.classList.remove('slide-in');
+    }
+  });
