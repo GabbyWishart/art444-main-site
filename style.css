@@ -33,16 +33,6 @@ section {
     
 }
 
-nav ul {
-    list-style: none;
-    display: flex;
-    flex-flow: row;
-    justify-content: center;
-    gap: 10px;
-    margin: 0;
-    padding: 70px;
-    
-}
 
 
 /* Lines */
@@ -54,10 +44,10 @@ nav ul {
     position: absolute;
 } */
 
-/* .vertical_line {
+.vertical_line {
     position: fixed;
     height: 100%;
-} */
+}
 
 .vertical_line_left {
     border-left: 4px solid #56493D;
@@ -83,10 +73,20 @@ nav ul {
     top: 0;
    
 }
+
 .vertical_line_right_dark {
     border-left: 4px solid #D7D5C8 !important;
 
-}
+} 
+
+.line_container {
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 3%; 
+    right: 3%; 
+    
+  }
 
 
 .horizontal_line_1,
@@ -165,6 +165,17 @@ h3 {
 
 
 /* Main Navigation */
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    gap: 10px;
+    margin: 0;
+    padding: 120px;
+    
+}
+
 .head-link {
     box-sizing: border-box;
     width: 160px;
@@ -180,7 +191,9 @@ h3 {
     font-size: 25px;
     line-height: 34px;
     text-align: center;
-   color: #56493D;
+    color: #56493D;
+
+    
 }
 
 .head-link-dark-mode {
@@ -222,6 +235,7 @@ h3 {
     line-height: 100px;
     color: #56493D;
     height: 660px;
+   
     
 }
 .main_header_dark_mode {
@@ -237,6 +251,7 @@ h3 {
     left: 10%;
     bottom: 10%;
     
+    
 }
 .hello_im_dark_mode {
     -webkit-text-stroke: 2.6px #D7D5C8 !important;
@@ -247,6 +262,7 @@ h3 {
     position: relative;
     left: 30px;
     /* bottom: 35%; */
+   
    
 }
 
@@ -265,6 +281,7 @@ h3 {
     position: relative;
     left: 7%;
     top: 100px;
+    
 
 }
 
@@ -273,6 +290,7 @@ h3 {
     position: relative;
     left: 2%;
     bottom: 49%;
+    
     
 }
 
@@ -288,6 +306,7 @@ h3 {
     left: 20%;
     bottom: 35%;
    
+   
 }
 
 .wishart {
@@ -299,6 +318,7 @@ h3 {
     position: relative;
     left: 32%;
     bottom: 70px;
+   
   
 }
 
@@ -685,6 +705,7 @@ a {
     text-decoration: none;
     color: #D7D5C8;
 
+
 }
 
 
@@ -753,6 +774,8 @@ a {
     background-image: url(images/x_button_copy.svg);
 }
 
+/* Dark Mode Toggle */
+
 /* .dark-mode-button {
     background-image: url(images/lightmodebutton.svg);
     background-size: 30px;
@@ -771,10 +794,29 @@ a {
     
 }  */
 
+.dark-mode-toggle {
+    background-image: url(images/darkmodetoggle.svg);
+    background-size: 60px;
+    background-repeat: no-repeat;
+    position: fixed;
+    height: 80px;
+    width: 80px;
+    left: 30px;
+    top: 20px;
+    transition: .5s ease;
+   
+       
+}  
+
+.light-mode-toggle {
+    background-image: url(images/darkmodetoggle2-2.svg); 
+    
+} 
+
 
 /* @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); */
 
-.switch {
+/* .switch {
   position: fixed;
   background-color: #56493D;
   height: 35px;
@@ -803,12 +845,62 @@ a {
 
 .dark .switch-toggle {
   transform: translatex(28px);
-}
+}  */
 
 
+/* Header Animation */
+  @keyframes slideInFromTop {
+    0% {
+      transform: translateY(-100%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+  .hello {
+    animation: slideInFromTop 1s forwards;
+  }
 
 
- 
+@keyframes rotateAndSlideInFromTop {
+    0% {
+        transform: translateY(-100%) rotate(90deg);
+    }
+    100% {
+        transform: translateY(0) rotate(90deg);
+    }
+    }
 
+    .im {
+    animation: rotateAndSlideInFromTop 1s forwards;
+    
+    }
 
- 
+@keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  .gabby {
+    animation: slideInFromLeft 1s forwards;
+  }
+
+  @keyframes slideInFromRight {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  .wishart {
+    animation: slideInFromRight 1s forwards;
+  }
+
+  
