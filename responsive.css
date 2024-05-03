@@ -210,12 +210,14 @@ textarea {
   
   }
 
-  .dark-mode-button {
+/* Dark Mode Toggle */
+
+  .dark-mode-toggle {
     left: 80px;
 }
 
-    .light-mode-button {
-        left: 80px;
+    .light-mode-toggle {
+    left: 80px;
 }
 
 }
@@ -480,17 +482,14 @@ textarea {
        
     }
 
-
-    .dark-mode-button {
+/* Dark Mode Toggle */
+    .dark-mode-toggle {
         left: 50px;
     }
    
-    .light-mode-button {
+    .light-mode-toggle {
         left: 50px;
     }
-
-
-
 
 
 
