@@ -1,7 +1,5 @@
 
 
-
-
 const faqToggle = document.querySelectorAll ('.faq-toggle') 
 for (let i = 0; i < faqToggle.length; i++) { 
   faqToggle[i].addEventListener("click", function() { this.classList.toggle('faq-open') })
@@ -10,11 +8,7 @@ for (let i = 0; i < faqToggle.length; i++) {
 
 
 function darkmode() {
-  // document.body.classList.toggle('dark');
-  // const button = document.querySelector('.switch');
-  // button.addEventListener('click', () => {document.body.classList.toggle('dark') })
   
-
   const headlinkdark = document.querySelectorAll('.head-link') 
   for (let i = 0; i < headlinkdark.length; i++) { 
   headlinkdark[i].classList.toggle('head-link-dark-mode'); }
