@@ -51,11 +51,9 @@ section {
 
 .vertical_line_left {
     border-left: 4px solid #56493D;
-    height: 943%;
-    position: absolute;
+    height: 100%;
+    position: fixed;
     left: 8%;
-    margin-left: -3px;
-    top: 0;
              
 }
 
@@ -66,11 +64,9 @@ section {
 
 .vertical_line_right {
     border-left: 4px solid #56493D;
-    height: 943%;
-    position: absolute;
+    height: 100%;
+    position: fixed;
     right: 8%;
-    margin-right: -3px;
-    top: 0;
    
 }
 
@@ -80,13 +76,13 @@ section {
 } 
 
 .line_container {
-    position: relative;
+   
     top: 0;
     bottom: 0;
     left: 3%; 
     right: 3%; 
     
-  }
+  } 
 
 
 .horizontal_line_1,
@@ -153,7 +149,6 @@ h3 {
     font-size: 30px;
     font-weight: 300;
     font-family: "Kanit", sans-serif;;
-    /* vertical-align: baseline; */
     color:#56493D;
     margin-left: 30px;
     
@@ -522,36 +517,6 @@ nav ul {
      
 }
 
-/* hr {
-    border: none; 
-    height: 3.5px; 
-    background-color: #56493D; 
-    margin: 0; 
-
-}
-
-.hr-dark {
-    background-color: #D7D5C8; 
-} */
-
-
-
-/* .toggle-button {
-    text-align: right;
-
-} */
-
-/* p {
-    font-size: 20px;
-    font-weight: 300;
-    font-family: "Kanit", sans-serif;
-    color:#56493D;
-    margin-left: 30px;
-} */
-
-/* .p-dark {
-    color:#D7D5C8 !important;
-} */
 
 .faq-toggle {
  
@@ -776,24 +741,6 @@ a {
 
 /* Dark Mode Toggle */
 
-/* .dark-mode-button {
-    background-image: url(images/lightmodebutton.svg);
-    background-size: 30px;
-    background-repeat: no-repeat;
-    top: 20px;
-    position: fixed;
-    height: 43px;
-    width: 43px;
-    left: 40px;
-       
-}  
-
-.light-mode-button {
-    background-image: url(images/darkmodebutton.svg); 
-   
-    
-}  */
-
 .dark-mode-toggle {
     background-image: url(images/darkmodetoggle.svg);
     background-size: 60px;
@@ -812,40 +759,6 @@ a {
     background-image: url(images/darkmodetoggle2-2.svg); 
     
 } 
-
-
-/* @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); */
-
-/* .switch {
-  position: fixed;
-  background-color: #56493D;
-  height: 35px;
-  width: 67px;
-  border-radius: 30px;
-  left: 40px;
-  top: 20px;
-  
-}
-
-.switch-toggle {
-  position: fixed;
-  width: 25px;
-  height: 25px;
-  background-color: #D7C0C6;
-  border-radius: 20px;
-  margin-top: 5px;
-  margin-left: 7px;
-  transition: 0.3s;
- 
-}
-
-.dark {
-  transition: 0.3s;
-}
-
-.dark .switch-toggle {
-  transform: translatex(28px);
-}  */
 
 
 /* Header Animation */
@@ -903,4 +816,5 @@ a {
     animation: slideInFromRight 1s forwards;
   }
 
-  
+
+ 
