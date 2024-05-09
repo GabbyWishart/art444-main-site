@@ -76,13 +76,21 @@ section {
 } 
 
 .line_container {
-   
     top: 0;
     bottom: 0;
     left: 3%; 
     right: 3%; 
     
   } 
+
+  .horizontal_lines {
+    display: flex;
+    justify-content: center;
+}
+
+.horizontal_lines {
+    flex: 0 0 auto; /* Allow flex items to shrink or grow based on the available space */
+}
 
 
 .horizontal_line_1,
@@ -100,6 +108,7 @@ section {
     transform: translateX(-50%);
     margin: 0 auto;
     overflow: hidden;
+    
 
 }
 
